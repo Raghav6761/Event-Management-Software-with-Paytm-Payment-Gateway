@@ -1,0 +1,93 @@
+body{
+    background-color: rgb(218, 244, 245);
+}
+
+.container{
+    /* background-color:antiquewhite; */
+    background-color:rgb(161, 189, 170);
+}
+
+.top-nav-row{
+    /* padding-left: 100px; */
+    padding-left: 5vw;
+}
+
+.login_sign_up{
+    text-decoration: underline !important;
+}
+
+.login{
+    margin-top: 15%;
+    padding-top: 20px;
+    text-align: center;
+    /* text-decoration: underline; */
+}
+.login > h1{
+    font-size: 50px;
+}
+.login_as{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+a{
+    color: black;
+}
+
+a:hover{
+    text-decoration: none !important;
+}
+
+.events_stu_table{
+    padding:0 !important;
+}
+
+footer{
+    position:fixed;
+    bottom: 0;
+    margin-bottom: 0;
+    width:100%;
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+}
+
+
+
+@media (max-width:500px){
+    .header-elements-stu{
+        margin-top: 10px;
+        font-size: 10px;
+    }
+    .header-elements-stu li a{
+        font-size: 10px !important;
+        /* padding:0; */
+    }
+
+    .events_stu_table{
+        font-size:10px;
+        min-width: 250px;
+        max-width:500px;
+    }
+    .events_stu_table thead{
+        width:100%;
+    }
+    .events_stu_table tbody{
+        width:100%;
+    }
+    .events_stu_table tr{
+        width:100%;
+    }
+    .events_stu_table tr th{
+        width:14%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .events_stu_table tr td{
+        width:14%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
